@@ -1,0 +1,194 @@
+{
+	"name":"LiveTourLab Hello World",
+	"defaults":{
+		"infos":{
+			"icon":"icons/red-heart.png"
+		}
+	},
+	"firstSceneId":"MainEntrance",
+	"scenes":[
+		{
+			"id":"MainEntrance",
+			"photopanos":[
+				{"src":"VKGTU Panorama1.jpg","rotateY":15}
+			],
+			"navs":[
+				{"to":"Lobby","txt":"Lobby","rotateY":19,"rotateX":3},
+				{"to":"Gym","txt":"Gym","rotateY":80,"rotateX":15},
+				{"to":"Library","txt":"Library","rotateY":100,"rotateX":5},
+				{"to":"Labs","txt":"Labs","rotateY":340,"rotateX":5}
+			],
+			"infos":[
+				{
+					"card":[
+						{"type":"image","src":"vr-ed.jpg","ratio":1.5},
+						{"type":"header","txt":"What is this?"},
+						{"type":"content","txt":"A cinematic VR tour experience from the EKSTU Human-Computer Interaction Lab."},
+						{"type":"content","txt":"Just point to the direction you want to explore and hold on the red circle for 3 seconds."}
+					],
+					"rotateY":302,
+					"rotateX":2
+				}
+			],
+			"preloads":[
+				{"src":"vr-ed.jpg"},
+				{"src":"Фойе Panorama.jpg"},
+				{"src":"Sport Panorama.jpg"},
+				{"src":"Библиотека Panorama2.jpg"},
+				{"src":"Принт Panorama.jpg"}
+			]
+		},
+		{
+			"id":"Lobby",
+			"photopanos":[
+				{"src":"Фойе Panorama.jpg","rotateY":270,"rotateX":10}
+			],
+      "navs":[
+				{
+					"to":"MainEntrance",
+					"txt":"Main Entrace",
+					"rotateY":123,
+					"rotateX":6,
+					"iconWidth":1.5,
+					"iconHeight":1.5
+				},
+				{
+					"to":"MuseumMainHall",
+					"txt":"Museum Main Hall",
+					"rotateY":20,
+					"rotateX":6,
+					"iconWidth":1.5,
+					"iconHeight":1.5
+				}
+      ],
+			"infos":[
+				{
+					"card":[
+						{"type":"video","src":"hm-short.mp4","ratio":1.7},
+						{"type":"content","txt":"A format for more active experiences.","textColor":"white","fontSize":0.18},
+						{"type":"footer","txt":"Video attribution: Here comes a description in the footer of the video","textColor":"white"}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000011",
+					"icon":"icons/ideas-cinema.png",
+					"iconWidth":0.75,
+					"iconHeight":1.5,
+					"rotateY":305
+				}
+			],
+			"sounds":[
+				{"src":"sparrow.mp3","volume":1,"rotateY":160}
+			],
+			"preloads":[
+				{"src":"VKGTU Panorama1.jpg"}
+			]
+		},
+		{
+			"id":"Gym",
+			"photopanos":[
+				{"src":"Sport Panorama.jpg","rotateY":270}
+			],
+      "navs":[
+        {
+					"to":"MainEntrance","txt":"Main Entrance","rotateY":116,"rotateX":3
+				}
+      ],
+			"preloads":[
+				{"src":"VKGTU Panorama1.jpg"}
+			]
+		},
+		{
+			"id":"MuseumMainHall",
+			"photopanos":[
+				{"src":"Музей Panorama4.jpg","rotateY":270}
+			],
+      "navs":[
+        {
+					"to":"MuseumExhibitionHall","txt":"Museum Exhibition Hall","rotateY":123,"rotateX":3
+				},
+				{
+					"to":"Lobby","txt":"Back to Lobby","rotateY":325,"rotateX":3
+				}
+      ],
+			"preloads":[
+				{"src":"Музей Panorama3.jpg"}
+			]
+		},
+		{
+			"id":"MuseumExhibitionHall",
+			"photopanos":[
+				{"src":"Музей Panorama2.jpg","rotateY":270}
+			],
+      "navs":[
+				{
+					"to":"MuseumMainHall","txt":"Back to Museum Main Hall","rotateY":280,"rotateX":3
+				},
+				{
+					"to":"MuseumExhibition","txt":"Museum Exhibition","rotateY":97,"rotateX":3
+				}
+      ],
+			"preloads":[
+				{"src":"Музей Panorama3.jpg"}
+			]
+		},
+		{
+			"id":"MuseumExhibition",
+			"photopanos":[
+				{"src":"Музей Panorama3.jpg","rotateY":270}
+			],
+      "navs":[
+        {
+					"to":"MuseumExhibitionHall","txt":"Back to Museum Exhibition Hall","rotateY":90,"rotateX":3
+				}
+      ],
+			"preloads":[
+				{"src":"Музей Panorama2.jpg"}
+			]
+		},
+		{
+			"id":"Labs",
+			"photopanos":[
+				{"src":"Принт Panorama.jpg","rotateY":270,"rotateX":10}
+			],
+      "navs":[
+				{
+					"to":"MainEntrance",
+					"txt":"Main Entrace",
+					"rotateY":83,
+					"rotateX":6,
+					"iconWidth":1.5,
+					"iconHeight":1.5
+				}
+      ],
+			"infos":[
+				{
+					"card":[
+						{"type":"video","src":"hm-short.mp4","ratio":1.7},
+						{"type":"content","txt":"A format for more active experiences.","textColor":"white","fontSize":0.18},
+						{"type":"footer","txt":"Video attribution: Here comes a description in the footer of the video","textColor":"white"}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000011",
+					"icon":"icons/ideas-cinema.png",
+					"iconWidth":0.75,
+					"iconHeight":1.5,
+					"rotateY":305
+				}
+			],
+			"sounds":[
+				{"src":"sparrow.mp3","volume":1,"rotateY":160}
+			],
+			"videos":[
+				{
+					"src":"fire.mp4","imgWidth":512,"imgHeight":512,"cmWidth":0.259765625,"rotateY":180
+				}
+			],
+			"preloads":[
+				{"src":"VKGTU Panorama1.jpg"}
+			]
+		}
+	]
+}
+
+
+
