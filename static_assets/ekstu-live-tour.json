@@ -36,7 +36,8 @@
 				{"src":"Фойе Panorama.jpg"},
 				{"src":"Sport Panorama.jpg"},
 				{"src":"Библиотека Panorama2.jpg"},
-				{"src":"Принт Panorama.jpg"}
+				{"src":"Принт Panorama.jpg"},
+				{"src":"Музей Panorama4.jpg"}
 			]
 		},
 		{
@@ -81,7 +82,8 @@
 				{"src":"sparrow.mp3","volume":1,"rotateY":160}
 			],
 			"preloads":[
-				{"src":"VKGTU Panorama1.jpg"}
+				{"src":"VKGTU Panorama1.jpg"},
+				{"src":"Музей Panorama4.jpg"}
 			]
 		},
 		{
