@@ -17,6 +17,7 @@
 				{"to":"Gym","txt":"Gym","rotateY":80,"rotateX":15},
 				{"to":"Library","txt":"Library","rotateY":100,"rotateX":5},
 				{"to":"Labs","txt":"Labs","rotateY":340,"rotateX":5}
+				{"to":"MuseumMainHall","txt":"Museum Main Hall","rotateY":50,"rotateX":16}
 			],
 			"infos":[
 				{
